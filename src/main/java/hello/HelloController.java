@@ -33,7 +33,7 @@ public class HelloController {
     
     @RequestMapping("/天氣") 
     public String weather(){
-    	return "今天天氣很好";
+    	return "今天天氣很好!";
     }
     
     @GetMapping(value = "/count/{a}&{b}") 
