@@ -39,7 +39,7 @@ public class HelloController {
     @GetMapping(value = "/count/{a}&{b}") 
     public int count(@PathVariable int a, @PathVariable int b)
     {
-    	return a+b;
+    	return a.toString()+(a+b)+b.toString();
     }
     
     @RequestMapping("/測試") 
