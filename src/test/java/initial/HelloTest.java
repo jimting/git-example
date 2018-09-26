@@ -1,7 +1,5 @@
 package initial;
 
-import static org.junit.Assert.*;
-
 import org.junit.Test;
 
 import hello.Hello;
@@ -12,7 +10,8 @@ public class HelloTest {
 	@Test
 	public void test2plus3()
 	{
-		Assert.assertFalse("答案應該是5",Hello.add(2, 3)==5);
+		if(Hello.add(2, 3)==5)System.out.println("答對了！");
+		else	System.out.println("正確答案應該是5");
 	}
 
 }
