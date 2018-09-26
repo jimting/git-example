@@ -23,7 +23,7 @@ public class HelloController {
     
     @RequestMapping("/")
     public String index() {
-        return "安安";
+        return "安安安安";
     }
     
     @RequestMapping("/page1")
