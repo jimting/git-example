@@ -78,13 +78,6 @@
 					<useProxy>false</useProxy>
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 					<imageName>springbootproject</imageName>
-					<resources>
-						<resource>
-							<targetPath>/</targetPath>
-							<directory>${project.build.directory}</directory>
-							<include>${project.build.finalName}.jar</include>
-						</resource>
-					</resources>
 				</configuration>
 			</plugin>
 			<!-- Docker maven plugin -->
