@@ -23,7 +23,7 @@ public class HelloController {
     
     @RequestMapping("/")
     public String index() {
-        return "安安安安";
+        return "安安安安123";
     }
     
     @RequestMapping("/page1")
@@ -31,7 +31,7 @@ public class HelloController {
         return "Hello! This is Page1!";
     }
     
-    @RequestMapping("/天氣") 
+    @RequestMapping("/weather") 
     public String weather(){
     	return "今天天氣很好!";
     }
@@ -42,7 +42,7 @@ public class HelloController {
     	return Hello.add(a, b);
     }
     
-    @RequestMapping("/測試") 
+    @RequestMapping("/test") 
     void test(HttpServletRequest request,HttpServletResponse response) throws IOException, ServletException 
     {
     	RequestDispatcher view;
