@@ -75,6 +75,8 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>1.0.0</version>
 				<configuration>
+					<useProxy>false</useProxy>
+					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 					<imageName>springbootproject</imageName>
 					<resources>
 						<resource>
