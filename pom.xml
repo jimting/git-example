@@ -75,8 +75,8 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>1.0.0</version>
 				<configuration>
-					<imageName>${docker.image.prefix}/${project.artifactId}</imageName>
-					<dockerDirectory>./var/run/docker</dockerDirectory>
+					<imageName>springbootproject</imageName>
+					<dockerDirectory>root/var/run/docker</dockerDirectory>
 					<resources>
 						<resource>
 							<targetPath>/</targetPath>
