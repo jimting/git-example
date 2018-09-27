@@ -76,7 +76,7 @@
 				<version>1.0.0</version>
 				<configuration>
 					<imageName>${docker.image.prefix}/${project.artifactId}</imageName>
-					<dockerDirectory>${project.basedir}/var/run/docker</dockerDirectory>
+					<dockerDirectory>./var/run/docker</dockerDirectory>
 					<resources>
 						<resource>
 							<targetPath>/</targetPath>
